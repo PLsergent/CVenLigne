@@ -141,6 +141,10 @@ header img:hover{
   background: rgba(245, 156, 99, 0.6);
   padding-bottom: 1px;
 }
+.Présentation img{
+  margin-right: 60px;
+  margin-left: 10px;
+}
 
 .Formation{
   margin-top: 5px;
@@ -159,6 +163,7 @@ header img:hover{
 }
 .Formation a:hover{
   color: white;
+  transition-duration: .8s;
 }
 .Formation .date{
   font-size: 115%;
@@ -184,6 +189,7 @@ header img:hover{
 }
 .Expérience a:hover{
   color: white;
+  transition-duration: .8s;
 }
 .Expérience .date{
   font-size: 115%;
@@ -251,6 +257,36 @@ header img:hover{
   background: rgba(245, 156, 99, 0.6);
   padding-bottom: 1px;
 }
+.Compétences a{
+  text-decoration: none;
+}
+.Compétences ul{
+  list-style-type: square;
+}
+.Compétences li{
+  color : #CA2525;
+}
+.Compétences li:hover{
+  color: #5742DB;
+}
+.Compétences a:hover{
+  color: white;
+}
+.Compétences h3{
+  color : #086A87;
+}
+.Compétences h3:hover{
+  color : black;
+  transition-duration: .8s;
+}
+.Compétences p{
+  margin-left: 20px;
+  margin-right: 30px;
+}
+.Compétences img{
+  margin-right: 60px;
+}
+
 
 .Passions{
   margin-top: 5px;
