@@ -1,22 +1,46 @@
+.Présentation .fa {
+  padding: 20px;
+  font-size: 40px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.Présentation .fa:hover {
+    opacity: 0.7;
+}
+
+.Présentation .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.Présentation .fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
 .menu{
     position: fixed;
     width: 300px;
     border-left: 3px solid black;
-    background-image: url("https://i.pinimg.com/originals/94/4d/e5/944de57dc26bb31b024e68a57727ef24.jpg");
+    background-color: #1d2021;
     background-size: 100%;
     top: 0;
     bottom: 0;
     box-shadow: 4px 4px 4px silver;
-    font-family: consolas;
+    font-family: inconsolas;
 }
 
 .menu .menuphoto{
-    background-image: url("file:///C:/Users/plser/Desktop/programme/HTML/CVenLigne/cvfinish4.0.jpg");
+    background-image: url("file:///home/papalouis/everysaint/HTML/CVenLigne/cvfinish4.0.jpg");
     background-size: 100%;
-    width: 197px;
-    height: 197px;
+    width: 217px;
+    height: 217px;
     margin: 15px auto 15px auto;
     border-radius: 10px;
+    margin-top: 25px;
   }
 
 .menu .overlay {
@@ -31,7 +55,7 @@
 
 .container:hover .overlay {
   top: 0;
-  height: 40%;
+  height: 26%;
 }
 .text {
   color: #4E4E4E;
@@ -58,52 +82,51 @@
 .menu h3{
   text-align: center;
   font-size: 160%;
-  color: white;
-  background: black;
+  color: #E4E4E4;
+  background: #4E4E4E;
 }
 .menu .cadre{
-  background : rgba(130,130,130,0.6);
-  width: 276px;
+  width: 293px;
   padding-top: 4px;
   padding-bottom: 4px;
-  margin-left: 6px;
-  margin-bottom: 5px;
+  padding-right: 4px;
+  margin-left: 2px;
+  margin-bottom: 12px;
+  font-size: 17px;
 }
-
 
 .menu .cadre a {
   font-family: consolas;
-  font-size: 130%;
-  color: black;
-  background: #E4E4E4;
-  border: 3px solid black;
-  border-radius: 3px;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-  -webkit-transform: translate(0, 0);
-  transform: translate(0, 0);
+  font-size: 160%;
+  color: #fbf1c7;
   text-decoration:none;
 }
+.menu a {
+display: inline-block;
+position: relative;
+z-index: 1;
+padding-right: 5em;
+margin-right: -5em;
+}
 
-.menu .cadre a:hover {
-  background: black;
-  color: rgba(138, 200, 229, 1);
-  border: 3px solid rgba(245, 156, 99,1);
-  -webkit-transition: all 0.35s ease;
-  transition: all 0.6s ease;
+.menu .cadre:hover {
+  background-color: #6A5D47;
+  transition-duration: .4s;
   cursor: pointer;
 }
-.menu .cadre a:hover >a {
-  color: white;
-  -webkit-transition: all 0.6s ease;
-  transition: all 0.6s ease;
+
+header h1{
+  text-align: center;
+  margin-left: 300px;
+  color:#fbf1c7;
+  font-size: 50px;
 }
 
 body{
-  font-family: Consolas;
+  font-family: Helvetica;
   background-color: #4E4E4E;
   color: #E4E4E4;
-  font-size: 17px;
+  font-size: 20px;
 }
 body h2{
   margin-left: 30px;
@@ -113,18 +136,19 @@ body h2{
   background-color: #DBDBDB;
   margin-right: 20px;
   border-top-right-radius: 20px;
-  border-top: 3px solid orange;
+  border-top: 3px solid #3C5B6C;
+}
+body a{
+  color : #033b4c;
+  text-decoration:none;
 }
 body p{
   margin-left: 40px;
   text-align: justify;
   margin-right: 20px;
+  line-height: 150%;
 }
 
-header img{
-  box-shadow: 4px 4px 4px #DEBC6F;
-  margin-left: 330px;
-}
 header img:hover{
   -webkit-transform: translate(5px, 5px);
   transform: translate(5px, 5px);
@@ -134,11 +158,18 @@ header img:hover{
 .placement {
   margin-left: 311px;
 }
+.placement h3{
+  color:#1d2021;
+}
+.placement h3:hover{
+    color : #E5CEA9;
+    transition-duration: .4s;
+}
 
 .Présentation{
   margin-top: 5px;
   border-top: 2px solid black;
-  background: rgba(245, 156, 99, 0.6);
+  background:rgba(245, 156, 99, 0.6);
   padding-bottom: 1px;
 }
 .Présentation img{
@@ -152,18 +183,15 @@ header img:hover{
   background: rgba(138, 200, 229, 0.6);
   padding-bottom: 1px;
 }
-.Formation a{
-  text-decoration: none;
-}
 .Formation ul{
   list-style-type: square;
 }
 .Formation li:hover{
-  color: #FAAD00;
+  color: #fbf1c7;
 }
 .Formation a:hover{
   color: white;
-  transition-duration: .8s;
+  transition-duration: .6s;
 }
 .Formation .date{
   font-size: 115%;
@@ -176,20 +204,17 @@ header img:hover{
   margin-top: 5px;
   border-top: 2px solid black;
   background: rgba(245, 156, 99, 0.6);
-  padding-bottom: 1px;
-}
-.Expérience a{
-  text-decoration: none;
+  padding-bottom: 5px;
 }
 .Expérience ul{
   list-style-type: square;
 }
 .Expérience li:hover{
-  color: #FAAD00;
+  color: #fbf1c7;
 }
 .Expérience a:hover{
   color: white;
-  transition-duration: .8s;
+  transition-duration: .6s;
 }
 .Expérience .date{
   font-size: 115%;
@@ -235,7 +260,7 @@ header img:hover{
     transition-property: width;
     transition-duration: 1.5s;
     margin-left: 80px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 .Langues .jauge2:hover {
     width: 300px;
@@ -257,27 +282,14 @@ header img:hover{
   background: rgba(245, 156, 99, 0.6);
   padding-bottom: 1px;
 }
-.Compétences a{
-  text-decoration: none;
-}
 .Compétences ul{
   list-style-type: square;
 }
-.Compétences li{
-  color : #CA2525;
-}
 .Compétences li:hover{
-  color: #5742DB;
+  color: #fbf1c7;
 }
 .Compétences a:hover{
   color: white;
-}
-.Compétences h3{
-  color : #086A87;
-}
-.Compétences h3:hover{
-  color : black;
-  transition-duration: .8s;
 }
 .Compétences p{
   margin-left: 20px;
@@ -293,6 +305,33 @@ header img:hover{
   border-top: 2px solid black;
   background: rgba(138, 200, 229, 0.6);
   padding-bottom: 1px;
+}
+.Passions ul{
+  list-style-type: square;
+}
+.Passions li:hover{
+  color: #fbf1c7;
+}
+.Passions a:hover{
+  color: white;
+}
+.Passions p{
+  margin-left: 20px;
+  margin-right: 30px;
+}
+.Passions .img{
+  text-align : center;
+}
+.Passions .img img{
+  margin-right: 100px;
+}
+.Passions .fa{
+  font-size: 120px;
+  color:black;
+  margin-right: 100px;
+}
+.Passions .sm{
+  text-align: left;
 }
 
 .OrientationO{
