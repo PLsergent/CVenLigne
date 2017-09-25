@@ -236,23 +236,25 @@ header img:hover{
   background: rgba(138, 200, 229, 0.6);
   padding-bottom: 1px;
 }
-.Langues .jauge1 {
+.Langues .jauge {
+    margin-left: 80px;
+    background: #C1BB0B;
     width: 40px;
     height: 40px;
-    background: #C1BB0B;
+}
+.Langues.jauge.in-view {
+    height: 40px;
+    width: 600px;
     -webkit-transition-property: width; /* Safari */
     -webkit-transition-duration: 2s; /* Safari */
     transition-property: width;
     transition-duration: 1.5s;
     margin-left: 80px;
 }
-.Langues .jauge1:hover {
-    width: 600px;
-}
-.Langues .jauge1:hover img{
+.Langues .jauge:hover img{
   display:none;
 }
-.Langues .jauge1 p{
+.Langues .jauge p{
   text-align: right;
 }
 .Langues .jauge2 {
