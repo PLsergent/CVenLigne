@@ -200,7 +200,7 @@ header img:hover{
 .Formation .date{
   font-size: 115%;
   font-weight: bold;
-  color: #CA2525;
+  color: #6832BB;
 }
 
 
@@ -223,7 +223,7 @@ header img:hover{
 .Expérience .date{
   font-size: 115%;
   font-weight: bold;
-  color: #CA2525;
+  color: #6832BB;
 }
 .Expérience p{
   margin-left: 20px;
@@ -294,6 +294,10 @@ header img:hover{
 }
 .Compétences img{
   margin-right: 60px;
+}
+.Compétences .margei{
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 
