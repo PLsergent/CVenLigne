@@ -1,3 +1,4 @@
+//code from https://codepen.io/SitePoint/pen/MwEaQM
 var $animation_elements = $('.jauge');
 var $window = $(window);
 

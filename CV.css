@@ -236,47 +236,38 @@ header img:hover{
   background: rgba(138, 200, 229, 0.6);
   padding-bottom: 1px;
 }
-.Langues .jauge {
+.Langues .one .jauge {
     margin-left: 80px;
     background: #C1BB0B;
     width: 40px;
     height: 40px;
+    margin-bottom: 30px;
 }
-.Langues.jauge.in-view {
+.Langues .one .jauge.in-view {
     height: 40px;
-    width: 600px;
-    -webkit-transition-property: width; /* Safari */
-    -webkit-transition-duration: 2s; /* Safari */
+    width: 80%;
     transition-property: width;
     transition-duration: 1.5s;
     margin-left: 80px;
-}
-.Langues .jauge:hover img{
-  display:none;
 }
 .Langues .jauge p{
   text-align: right;
 }
-.Langues .jauge2 {
+.Langues .two .jauge {
+    margin-left: 80px;
+    background: #F5B041;
     width: 40px;
     height: 40px;
-    background:  #F5B041;
-    -webkit-transition-property: width; /* Safari */
-    -webkit-transition-duration: 2s; /* Safari */
+    margin-bottom: 30px;
+}
+.Langues .two .jauge.in-view {
+    height: 40px;
+    width: 40%;
     transition-property: width;
     transition-duration: 1.5s;
     margin-left: 80px;
-    margin-bottom: 30px;
 }
-.Langues .jauge2:hover {
-    width: 300px;
-}
-.Langues .jauge2:hover img{
-  display: none;
-}
-.Langues .jauge2 p{
-  text-align: right;
-}
+
 .Langues h3{
   margin-left: 80px;
   color: black;
