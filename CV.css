@@ -109,8 +109,8 @@
 display: inline-block;
 position: relative;
 z-index: 1;
-padding-right: 5em;
-margin-right: -5em;
+padding-right: 4em;
+margin-right: -4em;
 }
 
 .menu .cadre:hover {
