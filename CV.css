@@ -119,6 +119,32 @@ margin-right: -4em;
   cursor: pointer;
 }
 
+header .button {
+  font-weight: bold;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: red;
+  background-color: #fbf1c7;
+  border: none;
+  box-shadow: 0 9px #999;
+  display: block;
+  margin:auto;
+  margin-top:100px;
+}
+
+header .button:hover {background-color: #F5B041}
+
+header .button:active {
+  background-color: #F5B041;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 header h1{
   text-align: center;
   margin-left: 300px;
@@ -189,6 +215,9 @@ header img:hover{
 }
 .Formation ul{
   list-style-type: square;
+}
+.Formation li {
+  margin-bottom: 5px;
 }
 .Formation li:hover{
   color: #fbf1c7;
@@ -340,4 +369,78 @@ header img:hover{
   border-top: 2px solid black;
   background: rgba(245, 156, 99, 0.6);
   padding-bottom: 1px;
+}
+
+.Fin{
+  border-top: solid white 2px;
+  padding-top: 1px;
+  padding-bottom: 10px;
+  background-color: #1d2021;
+  height: 240px;
+}
+.Fin .colonneG{
+  float: left;
+}
+.Fin .fa {
+  padding: 20px;
+  font-size: 30px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.Fin .fa:hover {
+    opacity: 0.7;
+}
+
+.Fin .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.Fin .fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.Fin .fa-github{
+  background: #6A128A;
+  color : white;
+}
+.Fin .button {
+  font-weight: bold;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: red;
+  background-color: #fbf1c7;
+  border: none;
+  box-shadow: 0 9px #999;
+  margin-left: 60px;
+}
+
+.Fin .button:hover {background-color: #F5B041}
+
+.Fin .button:active {
+  background-color: #F5B041;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.Fin .colonneD{
+  float: right;
+  text-align: right;
+  margin-left: 10px;
+}
+
+.Fin .milieu img{
+  display: block;
+  margin: auto;
+  margin-top: 20px;
 }
