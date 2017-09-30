@@ -74,14 +74,6 @@
 .text p:hover{
   color:red;
 }
-.text a{
-  text-decoration: none;
-  text-shadow: 1px 1px 2px black;
-}
-.text a:hover{
-  color:#1B00C0;
-  background-color: white;
-}
 
 .menu h3{
   text-align: center;
@@ -105,7 +97,7 @@
   color: #fbf1c7;
   text-decoration:none;
 }
-.menu a {
+.menu .cadre a {
 display: inline-block;
 position: relative;
 z-index: 1;
@@ -119,7 +111,7 @@ margin-right: -4em;
   cursor: pointer;
 }
 
-header .button {
+header .CV .button {
   font-weight: bold;
   display: inline-block;
   padding: 15px 25px;
@@ -128,7 +120,7 @@ header .button {
   text-align: center;
   text-decoration: none;
   outline: none;
-  color: red;
+  color: #21618C;
   background-color: #fbf1c7;
   border: none;
   box-shadow: 0 9px #999;
@@ -137,9 +129,9 @@ header .button {
   margin-top:100px;
 }
 
-header .button:hover {background-color: #F5B041}
+header .CV .button:hover {background-color: #F5B041}
 
-header .button:active {
+header .CV .button:active {
   background-color: #F5B041;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
@@ -418,7 +410,7 @@ header img:hover{
   text-align: center;
   text-decoration: none;
   outline: none;
-  color: red;
+  color: #21618C;
   background-color: #fbf1c7;
   border: none;
   box-shadow: 0 9px #999;
